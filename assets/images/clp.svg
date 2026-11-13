@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="clpBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14243B" />
+      <stop offset="100%" stop-color="#0C1726" />
+    </linearGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A3B66" />
+      <stop offset="100%" stop-color="#0E2340" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#clpBg)" stroke="rgba(61,125,255,0.2)" stroke-width="2"/>
+  <!-- HMI Frame -->
+  <rect x="40" y="35" width="320" height="230" rx="12" fill="#0E1A2B" stroke="#223652" stroke-width="3"/>
+  <!-- Screen Area -->
+  <rect x="60" y="55" width="280" height="160" rx="8" fill="url(#screen)" stroke="#3D7DFF" stroke-width="1.5"/>
+  <!-- HMI Graphics UI -->
+  <text x="80" y="85" font-family="'Manrope', sans-serif" font-weight="700" font-size="16" fill="#F5F8FC">SISTEMA DE AUTOMAÇÃO</text>
+  <rect x="80" y="100" width="110" height="45" rx="6" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)"/>
+  <text x="90" y="120" font-family="'JetBrains Mono', monospace" font-size="10" fill="#7C8CA3">PRESSÃO TANQUE</text>
+  <text x="90" y="137" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700" fill="#3D7DFF">4.2 BAR</text>
+  
+  <rect x="205" y="100" width="115" height="45" rx="6" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)"/>
+  <text x="215" y="120" font-family="'JetBrains Mono', monospace" font-size="10" fill="#7C8CA3">STATUS CLP</text>
+  <text x="215" y="137" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700" fill="#3ED07A">ONLINE</text>
+
+  <!-- Flow chart / diagram on HMI screen -->
+  <line x1="80" y1="180" x2="320" y2="180" stroke="rgba(61,125,255,0.4)" stroke-width="3" stroke-dasharray="6,4"/>
+  <circle cx="120" cy="180" r="8" fill="#3D7DFF"/>
+  <circle cx="200" cy="180" r="8" fill="#FF7A1A"/>
+  <circle cx="280" cy="180" r="8" fill="#3ED07A"/>
+  
+  <!-- Physical Buttons below Screen -->
+  <circle cx="90" cy="240" r="8" fill="#1FAA55"/>
+  <circle cx="120" cy="240" r="8" fill="#D93838"/>
+  <rect x="150" y="234" width="30" height="12" rx="3" fill="#2A3B52"/>
+  <rect x="190" y="234" width="30" height="12" rx="3" fill="#2A3B52"/>
+  <rect x="230" y="234" width="30" height="12" rx="3" fill="#2A3B52"/>
+  <text x="290" y="244" font-family="'JetBrains Mono', monospace" font-size="10" fill="#7C8CA3">SIEMENS S7</text>
+</svg>

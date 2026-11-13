@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="robBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14243B" />
+      <stop offset="100%" stop-color="#09121E" />
+    </linearGradient>
+    <linearGradient id="armGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF7A1A" />
+      <stop offset="100%" stop-color="#FFA866" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#robBg)" stroke="rgba(61,125,255,0.2)" stroke-width="2"/>
+  
+  <!-- Robot Base Mount -->
+  <rect x="140" y="230" width="120" height="35" rx="6" fill="#1C2C42" stroke="#3D7DFF" stroke-width="2"/>
+  <circle cx="200" cy="230" r="18" fill="#101B2B" stroke="#3D7DFF" stroke-width="3"/>
+
+  <!-- Robotic Arm Segment 1 -->
+  <path d="M 200 230 L 160 130" stroke="url(#armGrad)" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="200" cy="230" r="12" fill="#FFFFFF"/>
+  
+  <!-- Joint 1 -->
+  <circle cx="160" cy="130" r="16" fill="#1C2C42" stroke="#FF7A1A" stroke-width="3"/>
+  <circle cx="160" cy="130" r="7" fill="#3D7DFF"/>
+
+  <!-- Robotic Arm Segment 2 -->
+  <path d="M 160 130 L 260 70" stroke="url(#armGrad)" stroke-width="16" stroke-linecap="round"/>
+  
+  <!-- Wrist Joint -->
+  <circle cx="260" cy="70" r="12" fill="#1C2C42" stroke="#FF7A1A" stroke-width="2"/>
+
+  <!-- Tool / End Effector Gripper & Laser Spark -->
+  <path d="M 260 70 L 290 55" stroke="#7C8CA3" stroke-width="10" stroke-linecap="round"/>
+  <!-- Welding Laser Beam Effect -->
+  <path d="M 290 55 L 320 40" stroke="#3D7DFF" stroke-width="3" stroke-dasharray="2,2"/>
+  <polygon points="320,40 315,30 330,35 322,48 328,42" fill="#FFE066"/>
+  <circle cx="320" cy="40" r="6" fill="#FFFFFF"/>
+  <circle cx="320" cy="40" r="12" fill="rgba(61,125,255,0.4)"/>
+  
+  <text x="50" y="270" font-family="'JetBrains Mono', monospace" font-size="11" fill="#7C8CA3">FANUC ROBOTICS • 6-AXIS</text>
+</svg>

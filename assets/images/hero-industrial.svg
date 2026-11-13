@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1A2B" />
+      <stop offset="50%" stop-color="#0A1420" />
+      <stop offset="100%" stop-color="#060C14" />
+    </linearGradient>
+    <linearGradient id="glowLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3D7DFF" stop-opacity="0" />
+      <stop offset="50%" stop-color="#3D7DFF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FF7A1A" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#3D7DFF" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#0A1420" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bgGrad)"/>
+  <rect width="1200" height="600" fill="url(#centerGlow)"/>
+  <!-- Circuit Grid Overlay -->
+  <g stroke="rgba(61,125,255,0.12)" stroke-width="1" fill="none">
+    <path d="M0,100 H1200 M0,200 H1200 M0,300 H1200 M0,400 H1200 M0,500 H1200" />
+    <path d="M200,0 V600 M400,0 V600 M600,0 V600 M800,0 V600 M1000,0 V600" />
+    <path d="M150,100 L300,250 H600 L750,100 H1050" stroke="url(#glowLine)" stroke-width="2" />
+    <path d="M50,450 L250,250 H550 L700,400 H1150" stroke="url(#glowLine)" stroke-width="2" />
+  </g>
+  <!-- Glowing Nodes -->
+  <circle cx="300" cy="250" r="4" fill="#3D7DFF" />
+  <circle cx="600" cy="250" r="4" fill="#FF7A1A" />
+  <circle cx="750" cy="100" r="4" fill="#3D7DFF" />
+  <circle cx="250" cy="250" r="5" fill="#3D7DFF" />
+  <circle cx="700" cy="400" r="5" fill="#FF7A1A" />
+</svg>

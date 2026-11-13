@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pnlBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A283B" />
+      <stop offset="100%" stop-color="#0D1624" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#pnlBg)" stroke="rgba(61,125,255,0.2)" stroke-width="2"/>
+  <!-- Switchgear Cabinet Frame -->
+  <rect x="50" y="30" width="300" height="240" rx="6" fill="#121D2C" stroke="#3D7DFF" stroke-width="2.5"/>
+  <!-- Rail Din -->
+  <rect x="70" y="70" width="260" height="12" fill="#3D4E66"/>
+  <rect x="70" y="160" width="260" height="12" fill="#3D4E66"/>
+
+  <!-- Circuit Breakers / Disjuntores -->
+  <g fill="#1E3047" stroke="#3D7DFF" stroke-width="1">
+    <rect x="80" y="50" width="25" height="50" rx="3"/>
+    <rect x="110" y="50" width="25" height="50" rx="3"/>
+    <rect x="140" y="50" width="25" height="50" rx="3"/>
+    <rect x="170" y="50" width="40" height="50" rx="3" fill="#17273B" stroke="#FF7A1A"/>
+  </g>
+  <!-- Breaker Switches -->
+  <rect x="87" y="65" width="11" height="15" fill="#3ED07A" rx="2"/>
+  <rect x="117" y="65" width="11" height="15" fill="#3ED07A" rx="2"/>
+  <rect x="147" y="65" width="11" height="15" fill="#3ED07A" rx="2"/>
+  <rect x="180" y="65" width="20" height="15" fill="#FF7A1A" rx="2"/>
+
+  <!-- Contactors & Relays -->
+  <g fill="#162436" stroke="#5A6D87" stroke-width="1.5">
+    <rect x="80" y="140" width="50" height="55" rx="4"/>
+    <rect x="145" y="140" width="50" height="55" rx="4"/>
+    <rect x="210" y="140" width="50" height="55" rx="4"/>
+  </g>
+  <circle cx="105" cy="167" r="8" fill="#3D7DFF"/>
+  <circle cx="170" cy="167" r="8" fill="#3ED07A"/>
+  <circle cx="235" cy="167" r="8" fill="#FF7A1A"/>
+
+  <!-- Neat Wiring Troughs -->
+  <rect x="70" y="220" width="260" height="30" rx="4" fill="#0A121D" stroke="#223348"/>
+  <path d="M 92 100 V 140 M 122 100 V 140 M 152 100 V 140 M 190 100 V 140 M 105 195 V 220 M 170 195 V 220 M 235 195 V 220" stroke="#FF7A1A" stroke-width="2" stroke-dasharray="4,2"/>
+</svg>
